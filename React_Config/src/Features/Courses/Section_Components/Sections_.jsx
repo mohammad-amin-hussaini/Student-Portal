@@ -21,13 +21,13 @@ function Section_(){
 
         {Products.map((product)=>{
             const Icon = product.icon;
-            <Icon size={25} color={'white'}/>
+            
             return(
                     //MY COURSES part
                 <nav className="h-1/6 w-full flex border border-gray-600 rounded-sm p-1">
                     <header className="h-full w-1/10 flex items-center">
                         <div className={`h-10 w-10 ${product.color} m-1 rounded-sm flex items-center justify-center`}>
-                            {Icon}
+                            <Icon size={25} color={'white'}/>
                         </div>
                     </header>
 
